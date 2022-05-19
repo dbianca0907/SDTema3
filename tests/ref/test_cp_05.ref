@@ -1,0 +1,12 @@
+$ mkdir A 
+
+$ cd A
+
+$ mkdir B
+
+$ cd ..
+
+$ touch a 
+
+$ cp a A/B/C
+cp: failed to access 'A/B/C': Not a directory
